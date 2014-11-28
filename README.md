@@ -32,3 +32,16 @@ meteor add modular:plugin
 ```
 
 You'll see some more log lines pupping up in the middle of initialization sequences!
+
+
+as a final test, try also:
+
+```shell
+meteor add modular:wrapper
+```
+
+you should see tha main template changed after this!
+
+
+
+Thoughts?
