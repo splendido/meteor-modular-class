@@ -34,7 +34,6 @@ mobile-status-bar@1.0.1
 modular:base@1.0.0
 modular:init@1.0.0
 modular:main-a@1.0.0
-modular:plugin@1.0.0
 mongo@1.0.8
 observe-sequence@1.0.3
 ordered-dict@1.0.1
