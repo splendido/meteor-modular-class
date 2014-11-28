@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'modular:main-a',
+  name: 'modular:main-templates',
   summary: ' /* Fill me in! */ ',
   version: '1.0.0',
   git: ' /* Fill me in! */ '
@@ -8,19 +8,17 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
-  api.use('modular:base@1.0.0');
-  api.use('modular:plugin@1.0.0', { weak: true });
-  api.use('modular:init@1.0.0');
+  api.use([
+      "templating",
+  ], ["client"]);
 
   api.addFiles([
-    'lib/main.js',
-  ], ['server', 'client']);
-
-  api.export('ModularClass', ['client', 'server']);
+    'lib/modular_class.html',
+  ], ['client']);
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('modular:main-a');
+  api.use('modular:main-templates');
   api.addFiles('tests/main.js');
 });

@@ -61,6 +61,14 @@
       "1.0.0"
     ],
     [
+      "modular:init",
+      "1.0.0"
+    ],
+    [
+      "modular:main-templates",
+      "1.0.0"
+    ],
+    [
       "observe-sequence",
       "1.0.3"
     ],

@@ -1,6 +1,10 @@
 {
   "dependencies": [
     [
+      "aldeed:template-extension",
+      "3.1.1"
+    ],
+    [
       "base64",
       "1.0.1"
     ],

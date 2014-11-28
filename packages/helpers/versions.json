@@ -57,10 +57,6 @@
       "1.0.0"
     ],
     [
-      "modular:helpers",
-      "1.0.0"
-    ],
-    [
       "observe-sequence",
       "1.0.3"
     ],

@@ -9,10 +9,6 @@
       "2.0.3"
     ],
     [
-      "coffeescript",
-      "1.0.4"
-    ],
-    [
       "deps",
       "1.0.5"
     ],
@@ -33,10 +29,6 @@
       "1.0.1"
     ],
     [
-      "jag:pince",
-      "0.0.5"
-    ],
-    [
       "jquery",
       "1.0.1"
     ],
@@ -51,14 +43,6 @@
     [
       "minimongo",
       "1.0.5"
-    ],
-    [
-      "modular:base",
-      "1.0.0"
-    ],
-    [
-      "modular:helpers",
-      "1.0.0"
     ],
     [
       "observe-sequence",
