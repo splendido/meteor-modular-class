@@ -1,6 +1,6 @@
-console.log("Executing server:main.js");
+console.log("Loading server/main.js");
 
 
 Meteor.startup(function(){
-    console.log("Executing server:startup");
+    console.log("Executing server/main.js Meteor.startup");
 });

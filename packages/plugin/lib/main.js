@@ -2,4 +2,4 @@
 // ------------------------------------------
 //  Logs the start of execution of this file
 // ------------------------------------------
-ModularClassLog.debug('Executing modular:plugin:main.js');
+ModularClassLog.debug('Loading modular:plugin main.js');

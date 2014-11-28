@@ -9,7 +9,7 @@ Logger.setLevel('modular', 'debug');
 // ------------------------------------------
 //  Logs the start of execution of this file
 // ------------------------------------------
-ModularClassLog.debug('Executing modular:base:main.js');
+ModularClassLog.debug('Loading modular:base main.js');
 
 // ------------------------
 //  Base Class Declaration
@@ -19,9 +19,8 @@ ModularClassLog.debug('Executing modular:base:main.js');
 // Constructor
 ModularBC = function() {
   var self = this;
-  self.log.debug('Instantiating BC');
+  self.log.debug('Instantiating ModularBC');
 
-  self.log.debug('Starting up...');
   self.__startup();
 };
 
