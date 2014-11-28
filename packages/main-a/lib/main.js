@@ -4,8 +4,3 @@
 // ------------------------------------------
 ModularClassLog.debug('Executing modular:main-a:main.js');
 
-// --------------------------
-//  Base Class Instantiation
-// --------------------------
-
-ModularClass = new ModularBC();

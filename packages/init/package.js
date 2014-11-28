@@ -13,6 +13,7 @@ Package.onUse(function(api) {
   ], ['client', 'server']);
 
   api.use('modular:plugin@1.0.0', { weak: true });
+  api.use('modular:main-a@1.0.0', { weak: true });
 
   api.addFiles([
     'lib/server_startup.js',
@@ -25,6 +26,8 @@ Package.onUse(function(api) {
   api.addFiles([
     'lib/main.js',
   ], ['server', 'client']);
+
+  api.export('ModularClass', ['client', 'server']);
 });
 
 Package.onTest(function(api) {

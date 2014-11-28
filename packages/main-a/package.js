@@ -10,13 +10,11 @@ Package.onUse(function(api) {
 
   api.use('modular:base@1.0.0');
   api.use('modular:plugin@1.0.0', { weak: true });
-  api.use('modular:init@1.0.0');
+  api.use('modular:init@1.0.0', { unordered: true} );
 
   api.addFiles([
     'lib/main.js',
   ], ['server', 'client']);
-
-  api.export('ModularClass', ['client', 'server']);
 });
 
 Package.onTest(function(api) {

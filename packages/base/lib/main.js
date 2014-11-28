@@ -19,7 +19,7 @@ ModularClassLog.debug('Executing modular:base:main.js');
 // Constructor
 ModularBC = function() {
   var self = this;
-  self.log.debug('Instantiating BC');
+  self.log.debug('Instantiating ModularClass');
 
   self.log.debug('Starting up...');
   self.__startup();
